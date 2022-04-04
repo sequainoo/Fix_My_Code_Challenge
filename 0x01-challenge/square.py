@@ -14,7 +14,7 @@ class square():
                 size = value
                 i += 1
             else:
-                if value == size:
+                if value != size:
                     raise ValueError
             setattr(self, key, value)
 
